@@ -1,11 +1,26 @@
 {
   "dir": "test",
-  "tree": {},
+  "tree": [
+    {
+      "replacedWords": {
+        "Portfolio": "ManualPayment",
+        "PORTFOLIO": "MANUAL_PAYMENT",
+        "portfolio": "manualPayment",
+        "Formation": ""
+      }
+    },
+    {
+      "replacedWords": {
+        "Portfolio": "AutoPayment",
+        "PORTFOLIO": "AUTOPAYMENT",
+        "portfolio": "autoPayment",
+        "Formation": ""
+      }
+    }
 
-  "replacedWords":{
-    "Portfolio":"ManualPayment",
-    "PORTFOLIO":"MANUAL_PAYMENT",
-    "portfolio":"manualPayment",
-    "Formation":""
-  }
+
+
+  ]
+
+
 }
