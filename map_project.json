@@ -1,0 +1,11 @@
+{
+  "dir": "test",
+  "tree": {},
+
+  "replacedWords":{
+    "Portfolio":"ManualPayment",
+    "PORTFOLIO":"MANUAL_PAYMENT",
+    "portfolio":"manualPayment",
+    "Formation":""
+  }
+}
