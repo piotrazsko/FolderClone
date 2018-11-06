@@ -1,0 +1,67 @@
+{
+  "dir": "test",
+  "from":"src",
+  "to":"result",
+  "tree": [{
+      "replacedWords": {
+        "PaymentSystem": "Autorization",
+        "PAYMENT_SYSTEM": "AUTORIZATION",
+        "paymentSystem": "autorization",
+        "Formation": "",
+        "Формирование портфеля": "Авторизация",
+        "Имя платежной системы":"Имя",
+        "интеграцию платежной системы":"авторизацию",
+        "Платежная система":"Имя авторизации"
+      }
+    },
+    {
+      "replacedWords": {
+        "PaymentSystem": "PaymentSystem",
+        "PAYMENT_SYSTEM": "PAYMENT_SYSTEM",
+        "paymentSystem": "paymentSystem",
+        "Formation": "",
+        "Формирование портфеля": "Платежные системы",
+        "Имя платежной системы":"Имя платежной системы"
+      }
+    }
+    ,
+    {
+      "replacedWords": {
+        "PaymentSystem": "DataTransfer",
+        "PAYMENT_SYSTEM": "DATA_TRANSFER",
+        "paymentSystem": "dataTransfer",
+        "Formation": "",
+        "Формирование портфеля": "Передача данных",
+        "Имя платежной системы":"Имя",
+        "интеграцию платежной системы":"передачу данных",
+        "Платежная система":"Передача данных"
+      }
+    }
+    ,
+    {
+      "replacedWords": {
+        "PaymentSystem": "CheckPODFT",
+        "PAYMENT_SYSTEM": "CHECK_PODFT",
+        "paymentSystem": "checkPODFT",
+        "Formation": "",
+        "Формирование портфеля": "Проверка ПОДФТ",
+        "Имя платежной системы":"Имя поставщика",
+        "интеграцию платежной системы":" ПОДФТ",
+        "Платежная система":"Имя поставщика"
+      }
+    }
+    ,
+    {
+      "replacedWords": {
+        "PaymentSystem": "VerificationCenter",
+        "PAYMENT_SYSTEM": "VERIGICATION_CENTER",
+        "paymentSystem": "verificationCenter",
+        "Formation": "",
+        "Формирование портфеля": "УЦ",
+        "Имя платежной системы":"Имя УЦ",
+        "интеграцию платежной системы":"УЦ",
+        "Платежная система":"УЦ"
+      }
+    }
+  ]
+}

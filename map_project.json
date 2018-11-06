@@ -1,12 +1,15 @@
 {
   "dir": "test",
-  "tree": [
-    {
+  "from":"src",
+  "to":"result/",
+  "tree": [{
       "replacedWords": {
         "Portfolio": "ManualPayment",
         "PORTFOLIO": "MANUAL_PAYMENT",
         "portfolio": "manualPayment",
-        "Formation": ""
+        "Formation": "",
+        "Формирование портфеля": "Ручная оплата",
+        "borrowers": "manualPymentReducer"
       }
     },
     {
@@ -14,13 +17,81 @@
         "Portfolio": "AutoPayment",
         "PORTFOLIO": "AUTOPAYMENT",
         "portfolio": "autoPayment",
-        "Formation": ""
+        "Formation": "",
+        "Формирование портфеля": "Автоматическая оплата",
+        "borrowers": "autoPaymentReducer"
+      }
+    },
+    {
+      "replacedWords": {
+        "Portfolio": "Debtor",
+        "PORTFOLIO": "DEBTOR",
+        "portfolio": "debtor",
+        "Formation": "Find",
+        "Формирование портфеля": "Нахождение заемщиков на счетах просроченной задолженности",
+        "borrowers": "debtorReducer"
+      }
+    },
+    {
+      "replacedWords": {
+        "Portfolio": "Refund",
+        "PORTFOLIO": "REFUND",
+        "portfolio": "refund",
+        "Formation": "",
+        "Формирование портфеля": "Возврат ДС инвестору",
+        "borrowers": "refundReducer"
+      }
+    },
+    {
+      "replacedWords": {
+        "Portfolio": "Portfolio",
+        "PORTFOLIO": "PORTFOLIO",
+        "portfolio": "portfolio",
+        "Formation": "Formation",
+        "Формирование портфеля": "Формирование портфеля",
+        "borrowers": "portfolioReducer"
+      }
+    },
+    {
+      "replacedWords": {
+        "Portfolio": "InvestorWay",
+        "PORTFOLIO": "INVESTOR_WAY",
+        "portfolio": "investorWay",
+        "Formation": "",
+        "Формирование портфеля": "Путь инвестора",
+        "borrowers": "investorWayReducer"
+      }
+    },
+    {
+      "replacedWords": {
+        "Portfolio": "BorrowerWay",
+        "PORTFOLIO": "BORROWER_WAY",
+        "portfolio": "borrowerWay",
+        "Formation": "",
+        "Формирование портфеля": "Путь заемщика",
+        "borrowers": "borrowerWayReducer"
+      }
+    },
+    {
+      "replacedWords": {
+        "Portfolio": "Arrear",
+        "PORTFOLIO": "ARREAR",
+        "portfolio": "arrear",
+        "Formation": "",
+        "Формирование портфеля": "Выявление просроченных задолженностей",
+        "borrowers": "arrearReducer"
       }
     }
-
-
-
+    ,
+    {
+      "replacedWords": {
+        "Portfolio": "PercentСalculation",
+        "PORTFOLIO": "PERCENT_CALCULATION",
+        "portfolio": "percenCalculation",
+        "Formation": "",
+        "Формирование портфеля": "Вычисление процентов",
+        "borrowers": "percentCalculationReducer"
+      }
+    }
   ]
-
-
 }
